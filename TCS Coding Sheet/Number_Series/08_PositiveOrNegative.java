@@ -11,8 +11,6 @@ class PositiveOrNegative {
             System.out.println(N+" is negative number");
         }else if(N > 0){
             System.out.println(N+" is positive number");
-        }else if(N == 0){
-            System.out.println(N+" is Zero");
         }else{
             System.out.println("please enter valid number");
         }
