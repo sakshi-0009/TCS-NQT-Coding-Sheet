@@ -12,7 +12,7 @@ class EvenOrOdd {
         }else if(N%2 != 0){
             System.out.println(N+" is an odd number");
         }else{
-            System.out.println("please enter valid Integer number.");
+            throw new NumberFormatException("Please enter valid Integer number");
         }
 
     }
