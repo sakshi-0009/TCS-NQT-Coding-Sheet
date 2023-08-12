@@ -20,8 +20,8 @@ class Automorphic {
     System.out.println("Enter number : ");
     int n = Integer.parseInt(br.readLine());
     if(isAutomorphic(n)==true)
-    System.out.println("Automorphic Number");
+    System.out.println(n+" is an Automorphic Number");
     else
-    System.out.println("Not Automorphic Number");
+    System.out.println(n+" is not Automorphic Number");
   }
 }
