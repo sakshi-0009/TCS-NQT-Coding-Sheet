@@ -7,13 +7,13 @@ class GCD {
         int num1 = Integer.parseInt(br.readLine());
         System.out.println("Enter num2 : ");
         int num2 = Integer.parseInt(br.readLine());
-        
+
         int ans = 1;
         for (int i = 1; i <= Math.min(num1, num2); i++) {
             if (num1 % i == 0 && num2 % i == 0) {
-            ans = i;
+                ans = i;
+            }
         }
-    }
-    System.out.print("The GCD of the two number is "+ans);
+        System.out.print("The GCD of the two number is "+ans);
     }
 }   
