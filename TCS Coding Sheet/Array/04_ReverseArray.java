@@ -3,7 +3,7 @@ import java.io.*;
 class ReverseArray {
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter array size: ");
+        System.out.print("Enter array size: ");
         int size = Integer.parseInt(br.readLine());
 
         int[] arr = new int[size];
