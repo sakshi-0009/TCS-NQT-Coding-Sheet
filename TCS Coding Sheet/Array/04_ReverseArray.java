@@ -15,9 +15,9 @@ class ReverseArray {
         for (int i = size - 1; i >= 0; i--) {
          ans[size - i - 1] = arr[i];
         }
-        System.out.print("Reversed array is:- \n");
-      for (int i = 0; i < size; i++) {
-         System.out.print(ans[i] + " ");
-      }
+        System.out.print("Reversed array is : ");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(ans[i] + " ");
+        }
     }
 }
