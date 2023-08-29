@@ -1,0 +1,26 @@
+{
+    "code-runner.runInTerminal": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "css.styleSheets": [
+    
+    ],
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.editorAssociations": {
+        "*.jfif": "default"
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "git.autofetch": true,
+    "java.configuration.runtimes": [
+        
+
+        {
+            "name": "JavaSE-17",
+            "path": "C:\\Program Files\\Java\\jdk-17",
+            "default": true
+        }
+    ],
+    "git.openRepositoryInParentFolders": "never"
+}
